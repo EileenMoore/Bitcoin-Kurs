@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin-Kurs</title>
+
+</head>
+
+<body onload="loadCourse()">
+    <h1>Was kostet ein Bitcoin aktuell?</h1>
+
+    <div>Aktuell kostet ein Bitcoin <b id="bitcoin">60.000</b> USD (<span id="date"></span>)</div>
+
+    <div style="width: 50%; margin-top: 16px">
+        <canvas id="myChart" width="400" height="400"></canvas>
+    </div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.1.0/chart.min.js"></script>
+
+<script src="app.js"></script>
+
+
+</html>
